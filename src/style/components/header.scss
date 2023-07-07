@@ -48,7 +48,7 @@ header {
                 .header__line__wrap__list__categories {
                     li {
                         margin-right: 0;
-                        margin-left: 12px;
+                        margin-left: 10px;
                         a {
                             color: $head-categories-col;
                             font-size: 12px;
@@ -373,6 +373,12 @@ header {
             }
         }
     }
+}
+
+.black__line {
+    background-color: $dark-col;
+    height: 37px;
+    margin-bottom: -37px;
 }
 
 nav {
