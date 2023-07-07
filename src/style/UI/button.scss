@@ -1,0 +1,49 @@
+.btn {
+    background-color: $dark-col;
+    color: white;
+    height: 50px;
+    width: 216px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.btn__header {
+    height: 40px;
+    width: 147px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    .btn__header__menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            margin-right: 10px;
+        }
+    }
+}
+
+.btn__main {
+    background-color: #F2F3F5;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    color: #333;
+    margin-right: 26px;
+    .btn__main__wrap {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+        margin-left: 8px;
+        span {
+            margin-left: 8px;
+        }
+    }
+    img {
+        padding: 7px;
+        border: 1px solid #333;
+        border-radius: 100px;
+    }
+}

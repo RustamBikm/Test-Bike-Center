@@ -1,0 +1,16 @@
+// header, footer
+@import './components/footer';
+@import './components/header';
+
+// Pages
+@import './pages/index/index_main.scss';
+@import './pages/about/about_main.scss';
+@import './pages/contacts/contacts_main.scss';
+
+// UI
+@import './UI/button.scss';
+@import './UI/card.scss';
+@import './UI/checkbox.scss';
+@import './UI/form.scss';
+@import './UI/input.scss';
+@import './UI/slider.scss';
